@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      * { box-sizing: border-box; }
+      body {
+         margin: 0;
+      }
+   </style>
+</head>
+<body>
+
+   <audio src="../midia/audio.mp3"></audio>
+
+   <audio controls autoplay="1" src="../midia/ambient-piano-logo-165357.mpeg" type="audio/mpeg">
+   </audio>
+   <picture>
+      <source media="(max-width: 250px)" srcset="./150px.png">
+      <source media="(max-width: 500px)" srcset="./350px.png">
+      <source media="(max-width: 750px)" srcset="./500px.png">
+      <img src="./750px.png" alt="">
+   </picture>
+
+      <h1>
+      Reproduzindo Áudio.
+      </h1>
+
+      <p>
+      Vamos aprender a reproduzir áudios em HTML5.
+      </p>
+
+      <audio  controls autoplay>
+         <source src="../midia/ambient-piano-logo-165357.mpeg" type="audio/mpeg">
+      </audio>
+</body>
+</html>

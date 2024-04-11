@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>links</title>
+   <style>
+      body {
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      a {
+         color: red;
+         text-decoration: none;
+         font-weight: bold;
+      }
+
+      a:visited {
+         color: darkred;
+      }
+
+      a:hover {
+         text-decoration: underline;
+         color: black;
+      }
+
+      a:active {
+         color: yellow;
+      }
+
+       .especial::before {
+         content:'  → ';
+      }
+
+      .especial {
+         background-color: darkmagenta;
+         color: black;
+      }
+
+      .especial::after {
+         content: '←	';
+      }
+
+     
+   </style>
+</head>
+<body>
+   <h1>
+      Personalizando links
+   </h1>
+
+   <ul>
+      <a href="https://github.com/NoelyGangello">
+         <li>Repositório GitHub</li> 
+      </a>
+      <a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" class="especial">
+         <li>Canal do youtube</li>
+
+      </a>
+      <a href="https://cursoemvideo.com">
+         <li>Site do curso em video</li>
+
+      </a>
+
+      <a href="https://www.favoes.com.br">
+         <li>
+            site do ushsuhs
+         </li>
+      </a>
+      
+   </ul>
+</body>
+</html>
+
+

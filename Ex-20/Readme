@@ -1,0 +1,39 @@
+
+
+div: hover
+escolher uma cor no background, e quando passar o mouse em cima
+fica essa cor, tirou o mouse, cor desaparece.. so fica quando passa o
+mouse em cima.
+
+
+links visitados, posso pegar no css a tag a
+e colocar a:visited, e colocar uma cor de texto
+para saber diferencias os links que ja foram visitados.
+
+
+text-decoration: none = tira os sublinhados de baixo do texto.
+
+a:hover {
+   text-decoration: underline, quando passa o mouse em cima
+   ele fica sublinhado.
+}
+
+a:active {
+   quando vc clicar no link ele muda para a cor que vc escolher. 
+}
+
+target="_blank vc clica no link, abre outra aba
+sem fechar a que você já está.
+
+a::after {
+   entre colchetes, e aspas fora dos colchetes
+   posso escrever link para indicar que são links
+   e vai aparecer após cada link escrito.
+   podendo pegar simbolos também ....
+}
+
+#id
+.class
+: pseudo-class
+::pseudo-element
+> é o filho (clildren)  

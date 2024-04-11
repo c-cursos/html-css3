@@ -1,0 +1,10 @@
+
+
+ #Em HTML é id = em CSS é # no id só pode um elemento, em cada página.
+
+ Em HTML é class = em CSS é . no CSS pode varios elementos.
+
+ consigo ter  no mesmo elemento uma class e um id.
+
+ posso criar mais de uma class, no mesmo elemento só separando
+ por espaço.

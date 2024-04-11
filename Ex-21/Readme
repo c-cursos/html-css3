@@ -1,0 +1,47 @@
+
+
+Margin = Espaçamento fora do conteúdo.
+Padding = espaçamento dentro do conteúdo.
+
+
+
+ caixa box .. separadas por bloco, caixas
+ caixas-inline .. na mesma linha.
+
+ todo elemento que você quiser colocar no meio da tela, se for uma caixa
+ margin:auto;
+ se for um texto coloca text-align:center;
+
+ outline fica entre a borda e a margin, dentro da margin.
+
+ quando pegar um display bloco, e quiser colocar display:inline não dá pra mudar largura e altura
+
+
+ um bloco começa em uma linha sozinha, e o corpo dele vai ocupar a largura inteira do seu site, do seu link...
+
+
+
+ 
+
+📝 Tags de agrupamento (grouping tags):
+
+- Sem valor semântico:
+
+   <div>		-> block
+   <span>	-> inline
+
+- Com valor semântico:
+
+  <header>		-> cabeçalho
+       <nav>	        -> para menus, links, navegação
+
+ <main>			       -> principal
+   <section>		       -> seção
+	 <article>	       -> artigo
+		 <aside>	       -> periférico ao artigo (ex: escritor / autor)
+
+
+para deixar a foto toda redonda clip-path: circle();
+
+
+box-shadow = exemplo "1px 1px 1px 2px" e a cor backgraund-color"
